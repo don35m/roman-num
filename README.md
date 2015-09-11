@@ -1,7 +1,6 @@
-# _Count Up_
+# _Roman Numeral_
 
-##### _App in JavaScript that converts a number to
-a Roman Numeral, 9/10/15_
+##### _App in JavaScript that converts a number to a Roman Numeral, 9/10/15_
 
 #### By _**Don Schemmel**_
 
