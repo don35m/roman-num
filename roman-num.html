@@ -5,8 +5,22 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/scripts.js"></script>
-    <title>title</title>
+    <title>Roman Numeral</title>
   </head>
   <body>
+    <div class="container">
+
+      <h1>Roman Numeral Converter</h1>
+
+      <form id="number">
+        <div class="form-group">
+          <label for="number">Enter the number you want to convert to Roman Numeral:</label>
+          <input id="number" type="number" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Convert Your Number to Roman Numeral!</button>
+      </form>
+
+      <h2><span class="romanNum"></span></h2>
+    </div>
   </body>
 </html>

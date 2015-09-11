@@ -54,4 +54,8 @@ describe('romanNum', function() {
   it("Takes 1000 and converts it to M", function() {
     expect(romanNum(50)).to.equal("L")
   });
+
+  it("User enter number less than 1 or greater than 3999", function() {
+    expect(romanNum(7644)).to.equal("Please enter a number from 1 - 3999!")
+  });
 });
