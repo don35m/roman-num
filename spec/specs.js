@@ -38,4 +38,20 @@ describe('romanNum', function() {
   it("Takes 100 and converts it to C", function() {
     expect(romanNum(50)).to.equal("L")
   });
+
+  it("Takes 400 and converts it to CD", function() {
+    expect(romanNum(50)).to.equal("L")
+  });
+
+  it("Takes 500 and converts it to D", function() {
+    expect(romanNum(50)).to.equal("L")
+  });
+
+  it("Takes 900 and converts it to CM", function() {
+    expect(romanNum(50)).to.equal("L")
+  });
+
+  it("Takes 1000 and converts it to M", function() {
+    expect(romanNum(50)).to.equal("L")
+  });
 });
