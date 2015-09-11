@@ -22,4 +22,20 @@ describe('romanNum', function() {
   it("Takes 10 and converts it to X", function() {
     expect(romanNum(10)).to.equal("X")
   });
+
+  it("Takes 40 and converts it to XL", function() {
+    expect(romanNum(40)).to.equal("XL")
+  });
+
+  it("Takes 50 and converts it to L", function() {
+    expect(romanNum(50)).to.equal("L")
+  });
+
+  it("Takes 90 and converts it to XC", function() {
+    expect(romanNum(50)).to.equal("L")
+  });
+
+  it("Takes 100 and converts it to C", function() {
+    expect(romanNum(50)).to.equal("L")
+  });
 });
